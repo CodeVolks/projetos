@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneasy</title>
+    <link rel="stylesheet" href="./profissional_atualizar.css">
+    <link rel="stylesheet" href="../css/imports_fonts.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" href="../assets/images/icon_logo.svg">
+    <script src="./JavaScript_profissional_atualizar.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+    <main>
+        <aside>
+
+            <img class="aside_logo" src="../assets/images/logob.svg" alt="">
+
+            <nav class="nav_btn_menu">
+                <a href="../dashboard/dashboard.html"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
+                <a class="btn_logado" href="../profissional_cadastro/profissional_cadastro.html"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
+                <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
+                <a href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a href="../squad_atualizar/squad_atualizar.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
+            </nav>
+
+            <footer>
+                <a href="../entrar/entrar.html"><iconify-icon icon="iconamoon:exit-bold"></iconify-icon>Sair</a>
+            </footer>
+
+
+        </aside>
+
+
+        
+
+
+        <section class="conteudo_princiapal">
+            <div class="container_grid">
+                <div class="section_titulo">
+                    <img src="../assets/images/bolinha_azul.svg" alt="circulo azul">
+                    <h1>Profissionais</h1>
+                </div>
+                <section class="conteudo">
+                    <nav class="nav_cad_cons">
+                        <a class="btn_cad" href="#">Atualizar</a>
+                        <a class="btn_cons" href="../profissional_consulta/profissional_consulta.html">Consultar</a>
+                    </nav>
+                    <div class="posicao_conteudo">
+                        <div>
+                            <label for="Chapa">Chapa</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                                <input name="Chapa" class="input_chapa input-field" type="text">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="e-mail">Nome</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
+                                <input name="Consultar" class="input_nome input-field" type="text">
+                           </div>
+                        </div>
+                    </div>
+                    <div class="posicao_conteudo">
+                        <div>
+                            <label for="status">Status</label>
+                            <div class="input-icons">
+                                <label for="status"><iconify-icon class="icon"
+                                        icon="bi:exclamation-circle"></iconify-icon></label>
+                                <select class="input-field input_status" name="status" id="status">
+                                    <option value="" selected>Ativo</option>
+                                    <option value="">Inativo</option>
+                                    <option value="">Férias</option>
+                                    <option value="">Afastado</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="e-mail">E-mail</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ic:round-email"></iconify-icon>
+                                <input name="e-mail" id="e-mail" class="input-field input_email" type="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posicao_conteudo">
+                        <div>
+                            <label for="ini_ferias">Inicio das férias</label>
+                            <div class="input-icons input_date">
+                                <iconify-icon class="icon" icon="bx:calendar"></iconify-icon>
+                                <input name="ini_ferias" id="ini_ferias" class="input_ini_ferias input-field" type="date">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="fim_ferias">Término das férias</label>
+                            <div class="input-icons input_date">
+                                <iconify-icon class="icon" icon="bx:calendar"></iconify-icon>
+                                <input name="fim_ferias" id="fim_ferias" class="input_fim_ferias input-field" type="date">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_objetivo_projeto">
+                        <div class="section_objetivo_projeto_label_textarea">
+                            <label class="label_hard_skill" for="objetivo_projeto">Hard Skill</label>
+                            <div>
+                                <textarea id="objetivo_projeto" name="objetivo_projeto" rows="4" cols="130"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="posicao_conteudo">
+                        <div class="horas"> 
+                            <div>
+                            <label for="jorn_tra">Jornada de trabalho</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ps:clock"></iconify-icon>
+                                <input name="jorn_tra" id="jorn_tra" class="input_jorn_tra input-field" type="number">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="hora_ext">Horas extras</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ps:clock"></iconify-icon>
+                                <input name="hora_ext" id="hora_ext" class="input_hora_ext input-field" type="number">
+                            </div>
+                        </div>
+
+                        </div>
+                       
+                        <div class="btn_conf">
+                            <a href=""><img src="../assets/images/btn_confirmar.svg" alt=""></a>
+                            <a href=""><img src="../assets/images/btn_cancelar.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+
+
+</body>
+</html>

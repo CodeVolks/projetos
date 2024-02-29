@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneasy</title>
+    <link rel="stylesheet" href="../dashboard/dashboard.css">
+    <link rel="stylesheet" href="../css/imports_fonts.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" href="../assets/images/icon_logo.svg">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <script src="../dashboard/dashboard.js" defer></script>
+</head>
+
+<body>
+
+
+    <main>
+        <aside>
+
+            <img class="aside_logo" src="../assets/images/logob.svg" alt="">
+
+            <nav class="nav_btn_menu">
+                <a id="input_dashboard" href="../dashboard/dashboard.html"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
+                <a href="../profissional_cadastro/profissional_cadastro.html"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
+                <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a id="input_demanda" href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
+                <a href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a href="../squad_atualizar/squad_atualizar.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
+            </nav>
+
+            <footer>
+                <a href="../entrar/entrar.html"><iconify-icon icon="iconamoon:exit-bold"></iconify-icon>Sair</a>
+            </footer>
+        </aside>
+
+        <section class="container">
+
+            <div class="section_titulo">
+                <img src="../assets/images/bolinha_azul.svg" alt="">
+                <h1>Dashboard</h1>
+            </div>
+
+            <section>
+
+                <div class="section_geral">
+
+                    <div class="section_status_profissional">
+
+                        <h2 class="titulo_dashboard">Status do Profissional</h2>
+                        <div class="grafico_legenda">
+                            <div class="teste">
+
+                                <div class="circulo01 circulo">
+                                    <div class="circulo02 circulo">
+                                        <div class="circulo03 circulo">
+                                            <div class="circulo04 circulo">
+                                                <div class="circulo05 circulo">
+                                                    <div class="circulo06 circulo"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div>
+
+                                <div class="legenda">
+                                    <div class="confirguracao_geral">
+                                        <div class="indicador01 indicador"> </div>
+                                        <p>40% em projetos</p>
+                                    </div>
+                                    <div class="confirguracao_geral">
+                                        <div class="indicador02 indicador"> </div>
+                                        <p>25% em demandas</p>
+                                    </div>
+                                    <div class="confirguracao_geral">
+                                        <div class="indicador03 indicador"> </div>
+                                        <p>23% em disponíveis</p>
+                                    </div>
+                                    <div class="confirguracao_geral">
+                                        <div class="indicador04 indicador"> </div>
+                                        <p>08% em afastamento</p>
+                                    </div>
+                                    <div class="confirguracao_geral">
+                                        <div class="indicador05 indicador"> </div>
+                                        <p>04% em férias</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="hard_skill_profissionais">
+
+                        <h2 class="titulo_dashboard">Hard Skill x Profissionais</h2>
+
+                        <div>
+                            <div class="indicador_hard_skill">
+                                <p>100</p>
+                                <p>75</p>
+                                <p>50</p>
+                                <p>25</p>
+                                <p>0</p>
+                            </div>
+
+
+                            <div class="barras">
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_01 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>Java</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_02 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>Python</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_03 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>Ruby</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_04 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>C#</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_05 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>Kotlin</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_06 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>HTML</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_07 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>CSS</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_08 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>React</p>
+                                    </div>
+                                </div>
+                                <div class="container_barras">
+                                    <div class="barra_externa">
+                                        <div class="barra_09 barra_interna"></div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>MySQL</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="section_geral">
+
+                    <div class="andamento_projeto">
+
+                        <h2 class="titulo_dashboard">Andamento dos Projetos</h2>
+
+                        <div class="container_andamento_projeto">
+
+                            <div>
+                                <div>
+                                    <h3>Atualização do Cadastro para MySQL</h3>
+                                </div>
+                                <div class="barra_externa_andamento_projeto">
+                                    <div class="barra_interna_andamento_projeto_01"></div>
+                                </div>
+                                <div class="status">
+                                    <div>
+                                        
+                                        <p class="destaque_status">Status: <span class="span_status">Em andamento</span></p>
+                                    </div>
+                                    <div>
+                                        <p>354 / 680</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <h3>Implementação do onboarding</h3>
+                                </div>
+                                <div class="barra_externa_andamento_projeto">
+                                    <div class="barra_interna_andamento_projeto_02"></div>
+                                </div>
+                                <div class="status">
+                                    <div>
+                                        <p class="destaque_status">Status: <span class="span_status">Em andamento</span></p>
+                                    </div>
+                                    <div>
+                                        <p>55 / 680</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <h3>Criação do novo sistema de gerenciamento</h3>
+                                </div>
+                                <div class="barra_externa_andamento_projeto">
+                                    <div class="barra_interna_andamento_projeto_03"></div>
+                                </div>
+                                <div class="status">
+                                    <div>
+                                        <p class="destaque_status">Status: <span class="span_status">Em andamento</span></p>
+                                    </div>
+                                    <div>
+                                        <p>600 / 680</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <h3>Atualização do Cadastro para MySQL</h3>
+                                </div>
+                                <div class="barra_externa_andamento_projeto">
+                                    <div class="barra_interna_andamento_projeto_04"></div>
+                                </div>
+                                <div class="status">
+                                    <div>
+                                        <p class="destaque_status">Status: <span class="span_status">Em andamento</span></p>
+                                    </div>
+                                    <div>
+                                        <p>560 / 680</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grafico_demanda_chamado">
+
+                        <h2 class="titulo_dashboard">Demandas x Chamados x Finalizados</h2>
+
+                        <div>
+                            <div class="indicador_hard_skill">
+                                <p>100</p>
+                                <p>75</p>
+                                <p>50</p>
+                                <p>25</p>
+                                <p>0</p>
+                            </div>
+
+
+                            <div class="barras">
+
+                                <div class="container_barras_demanda_chamado">
+                                    <div class="demanda_chamado">
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_demanda01"></div>
+                                        </div>
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_chamado01"></div>
+                                        </div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>FEV</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras_demanda_chamado">
+                                    <div class="demanda_chamado">
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_demanda02"></div>
+                                        </div>
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_chamado02"></div>
+                                        </div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>MAR</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras_demanda_chamado">
+                                    <div class="demanda_chamado">
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_demanda03"></div>
+                                        </div>
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_chamado03"></div>
+                                        </div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>ABR</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras_demanda_chamado">
+                                    <div class="demanda_chamado">
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_demanda04"></div>
+                                        </div>
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_chamado04"></div>
+                                        </div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+
+                                <div class="container_barras_demanda_chamado">
+                                    <div class="demanda_chamado">
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_demanda05"></div>
+                                        </div>
+                                        <div class="barra_externa_demanda_chamado">
+                                            <div class="barra_chamado05"></div>
+                                        </div>
+                                    </div>
+                                    <div class="descricao_hard_skill">
+                                        <p>JUL</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="legenda_demanda_chamado">
+
+                            <div class="confirguracao_geral">
+                                <div class="legenda_demanda_chamado01 indicador"> </div>
+                                <p>Demandas</p>
+                            </div>
+                            <div class="confirguracao_geral">
+                                <div class="legenda_demanda_chamado02 indicador"> </div>
+                                <p>Chamados</p>
+                            </div>
+                            <div class="confirguracao_geral">
+                                <div class="legenda_demanda_chamado03 indicador"> </div>
+                                <p>Finalizados</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </section>
+
+
+
+        </section>
+
+    </main>
+</body>
+
+</html>

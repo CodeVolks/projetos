@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="300dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#2274AC"
+>
+
+    <ImageView
+            android:layout_width="113dp"
+            android:layout_height="125dp" app:srcCompat="@drawable/logo_branca" android:id="@+id/imageView3"
+            android:background="#2274AC"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="88dp"/>
+    <TextView
+            android:text="Maneasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/maneasyLogo"
+            android:fontFamily="@font/verdana_bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

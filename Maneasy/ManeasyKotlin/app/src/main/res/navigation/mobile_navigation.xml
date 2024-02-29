@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_servicos">
+
+    <fragment
+            android:id="@+id/nav_detalhes_servico"
+            android:name="com.senai.vsconnect_kotlin.views.DetalhesServicoFragment"
+            android:label="@string/menu_detalhes_servico"
+            tools:layout="@layout/fragment_detalhes_servico">
+
+        <action android:id="@+id/action_nav_detalhes_servico_to_nav_servicos" app:destination="@id/nav_servicos"/>
+
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/nav_servicos"
+            android:name="com.senai.vsconnect_kotlin.views.ListaServicosFragment"
+            android:label="@string/menu_lista_servicos"
+            tools:layout="@layout/fragment_lista_servicos">
+
+
+        <action
+                android:id="@+id/action_nav_servicos_to_nav_sair"
+                app:destination="@+id/nav_sair"
+        />
+        <action android:id="@+id/action_nav_servicos_to_nav_detalhes_servico"
+                app:destination="@id/nav_detalhes_servico"/>
+
+
+    </fragment>
+
+</navigation>

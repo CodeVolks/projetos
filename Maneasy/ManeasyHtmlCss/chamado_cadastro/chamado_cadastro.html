@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneasy</title>
+    <link rel="stylesheet" href="./chamado_cadastro.css">
+    <link rel="stylesheet" href="../css/imports_fonts.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" href="../assets/images/icon_logo.svg">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <script src="../chamado_cadastro/chamado_cadastro.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <aside>
+
+            <img class="aside_logo" src="../assets/images/logob.svg" alt="">
+
+            <nav class="nav_btn_menu">
+                <a href="../dashboard/dashboard.html"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
+                <a href="../profissional_cadastro/profissional_cadastro.html"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
+                <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
+                <a id="input_chamado_cadastro" href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a href="../squad_atualizar/squad_atualizar.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
+            </nav>
+
+            <footer>
+                <a href="../entrar/entrar.html"><iconify-icon icon="iconamoon:exit-bold"></iconify-icon>Sair</a>
+            </footer>
+        </aside>
+        <section>
+            <div class="container-grid">
+                <div class="conteudo">
+                    <div class="cadastrar">
+                        <img src="../assets/images/bolinha_azul.svg" alt="">
+                        <h1>Chamados</h1>
+                    </div>
+                    <div class="botao">
+                        <a href="../chamado_cadastro/chamado_cadastro.html" class="button_cadastrar">Cadastrar</a>
+                        <a href="../chamado_consulta/chamado_consulta.html" class="button_consultar">Consultar</a>
+
+                    </div>
+
+                    <div class="section_formulario1">
+
+                        <div class="input_setor">
+                            <label for="setor">Setor</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                                <input name="setor" class="input-field-medium" type="text">
+                            </div>
+                        </div>
+
+                        <div class="input_solicitante">
+                            <label for="Consultar">Nome Solicitante</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
+                                <input name="nome-solicitante" class="input-field-big" type="text">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="section_formulario2">
+
+                        <div class="input_chapa">
+                            <label for="chapa-profissional">Chapa Profissional</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                                <input name="chapa-profissional" class="input-field-medium" type="text">
+                            </div>
+                        </div>
+
+                        <div class="input_nome">
+                            <label for="nome-profissional">Nome Profissional</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
+                                <input name="nome-profissional" class="input-field-big" type="text">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="section_formulario3">
+
+                        <div class="input_criacao">
+                            <label for="date">Criação</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar"></iconify-icon>
+
+                                <input type="date" class="input-field-little" type="text">
+                            </div>
+                        </div>
+
+                        <div class="input_inicio">
+
+                            <label for= "date">Inicio</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" ></iconify-icon>
+                                <input type="date" class="input-field-little" type="text">
+                            </div>
+                        </div>
+
+                        <div class="input_termino">
+
+                            <label for="date">Término</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="bx:calendar" ></iconify-icon>
+                                <input type="date" class="input-field-little" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_formulario4">
+
+                        <label for="text-area">Descriçao Chamado</label>
+                        <textarea class="descricao-chamado" name="descricao-chamado" id="descricao-chamado"
+                            rows="5"></textarea>
+                    </div>
+
+
+                    <div class="section_formulario5">
+
+                        <div class="input_anexo">
+                            <label for="">Anexo</label>
+                            <div class="input-icons input-anexo">
+                                <label for="file"><iconify-icon class="icon" icon="bi:cloud-arrow-up"></iconify-icon></label>
+                                        <input type="file" id="file" name="file">
+
+                            </div>
+                        </div>
+
+                        <div class="input_status_chamado">
+                            <label for="file">Status Chamado</label>
+                            <div class="input-icons input_status">
+                            <iconify-icon class="icon" icon="el:ok-circle"></iconify-icon>
+                                
+                                <select class="selecao input-field-medium"  name="status" id="status">
+                                    <option value="aberto">Aberto</option>
+                                    <option value="em andamento">Em andamento</option>
+                                    <option value="finalizado">Finalizado</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icones">
+                        <a href="../squad_cadastro/squad_cadastro.html"><img src="../assets/images/btn_squad.svg" alt="squad"></a>
+                        <div>
+                           <a href=""><img src="../assets/images/btn_confirmar.svg" alt=""></a> 
+                           <a href=""><img src="../assets/images/btn_cancelar.svg" alt=""></a> 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

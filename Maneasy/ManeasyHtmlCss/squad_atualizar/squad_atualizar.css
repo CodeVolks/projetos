@@ -1,0 +1,146 @@
+
+.container{
+    overflow-y: scroll;
+    scroll-behavior: smooth;  
+}
+
+.section_titulo {
+    max-width: 80%;
+    display: flex;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+
+}
+
+.section_titulo img {
+    padding-right: 20px;
+}
+
+label {
+    margin: 0 0 10px 0;
+}
+
+.section_pesquisa p {
+    padding: 30px 10px 10px 10px;
+}
+
+.section_pesquisa_btn img {
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.section_pesquisa_resultado {
+    color: var(--preto);
+    font-family: "VerdanaRegular";
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.section_pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    position: absolute;
+    padding: 11px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    font-size: 20px;
+}
+
+.section_pesquisa_resultado_input {
+    width: 50%;
+}
+
+.input-icons {
+    margin-top: 10px;
+    position: relative;
+}
+
+input .input-field {
+    width: 100%;
+    max-width: 447px;
+}
+
+.input-field {
+    width: 100%;
+    max-width: 447px;
+    background: transparent;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.section_resultado h2 {
+    font-size: 20px;
+    font-family: "VerdanaBold";
+    padding: 50px 0 20px 0;
+}
+
+.section_resultado_dados {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.162);
+
+}
+
+.section_resultado_dados div {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.section_resultado_dados img {
+    margin: 0;
+    width: 34px;
+}
+
+.section_resultado_dados_id {
+    width: 20%;
+}
+
+.section_resultado_dados_tipo {
+    width: 20%;
+}
+
+.section_resultado_dados_nome {
+    width: 60%;
+}
+
+.section_resultado_dados_btn {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+
+.lista_consultas {
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    color: var(--preto);
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 300px;
+    padding-right: 5%;
+
+
+}

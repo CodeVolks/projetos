@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient(#ffffffe1, #ffffffe1), url("../assets/images/background_maneasy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_btn_voltar iconify-icon {
+    font-size: 40px;
+    padding: 50px 0 0 50px;
+    color: var(--azule);
+    cursor: pointer;
+
+}
+
+.section_logo {
+    margin-top: 80px;
+    width: 25%;
+}
+
+.section_img_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_img_logo img {
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.section_esqueceu_senha {
+    width: 40%;
+}
+
+.section_esqueceu_senha h1 {
+    font-size: 100px;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    padding-bottom: 50px;
+}
+
+.section_esqueceu_senha span {
+    font-size: 100px;
+    font-family: "SpartanBold";
+    color: var(--amarelo);
+}
+
+.section_input label {
+    color: var(--azule);
+    font-family: "VerdanaRegular";
+}
+
+.icon {
+    position: absolute;
+    padding: 8px 20px 7.5px 10px;
+    align-items: center;
+    color: var(--azule);
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 30%;
+    margin-top: 5px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    height: 40px;
+    background: transparent;
+    border-radius: 100px;
+    width: 332%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid var(--azule);
+}
+
+.section_btn_confirmar {
+    display: flex;
+    justify-content: center;
+}
+
+.section_btn_confirmar a {
+    border-radius: 100px;
+    height: 40px;
+    border: none;
+    color: var(--branco);
+    background-color: var(--azule);
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 250px;
+    width: 60%;
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background-color: var(--azulc);
+}
+
+.section_input_senha {
+    display: flex;
+}
+
+.section_input_senha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_input_senha>div{
+    width: 48%;
+
+}
+
+.input-field_senha {
+    width: 335%;
+    margin-bottom: 20px;
+    height: 40px;
+    background: transparent;
+    border-radius: 100px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid var(--azule);
+}

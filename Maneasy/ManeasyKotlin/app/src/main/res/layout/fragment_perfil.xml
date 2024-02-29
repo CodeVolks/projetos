@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.ListaServicosFragment"
+        android:background="@drawable/fundo"
+>
+
+
+    <TextView
+            android:id="@+id/perfil"
+            android:layout_width="166dp"
+            android:layout_height="32dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="Maneasy"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            tools:layout_editor_absoluteY="235dp" tools:ignore="MissingConstraints"/>
+
+    <TextView
+            android:id="@+id/nome_usuario"
+            android:layout_width="412dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_regular"
+            android:text="Lucas Gonçalves de Oliveira"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            tools:layout_editor_absoluteY="385dp" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:id="@+id/nome_usuario2"
+            android:layout_width="412dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_regular"
+            android:text="01010101"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            tools:layout_editor_absoluteY="475dp" tools:ignore="MissingConstraints"/>
+    <ImageView
+            android:src="@drawable/logo_colorida"
+            android:layout_width="158dp"
+            android:layout_height="163dp"
+            android:id="@+id/logo_perfil"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="52dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

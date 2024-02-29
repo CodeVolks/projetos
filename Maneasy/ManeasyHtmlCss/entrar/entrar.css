@@ -1,0 +1,148 @@
+body {
+    background-image: linear-gradient(#ffffffe1, #ffffffe1), url("../assets/images/background_maneasy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;    
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section_logo {
+    width: 25%;
+}
+
+.section_img_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_img_logo img {
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.section_esqueceu_senha {
+    width: 40%;
+}
+
+.section_esqueceu_senha h1 {
+    font-size: 100px;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    padding-bottom: 50px;
+}
+
+.section_esqueceu_senha span {
+    font-size: 100px;
+    font-family: "SpartanBold";
+    color: var(--amarelo);
+}
+
+.section_input label {
+    color: var(--azule);
+    font-family: "VerdanaRegular";
+}
+
+.icon {
+    position: absolute;
+    padding: 8px 20px 7.5px 10px;
+    align-items: center;
+    color: var(--azule);
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.input-icons {
+    width: 30%;
+    margin-top: 5px;
+}
+
+div:first-child{
+    margin-bottom: 30px;
+
+}
+
+.input-field {
+    height: 40px;
+    background: transparent;
+    border-radius: 100px;
+    width: 332%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid var(--azule);
+}
+
+.section_btn_confirmar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.162);
+
+}
+
+
+
+.section_btn_confirmar a {
+    border-radius: 100px;
+    height: 40px;
+    border: none;
+    color: var(--branco);
+    background-color: var(--azule);
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 250px;
+    width: 60%;
+    margin: 40px 0 40px 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background-color: var(--azulc);
+}
+
+.nav_esqueceu_senha{
+    font-family: "VerdanaRegular";
+    text-align: right;
+    padding: 5px;
+    color: var(--azule);
+    cursor: pointer;
+    text-decoration:none; 
+}
+
+.nav_esqueceu_senha:hover{
+    color: var(--amarelo);
+}
+
+.nav_cadastro{
+    margin-top: 40px;
+    font-family: "VerdanaRegular";
+    text-align: center;
+    color: var(--azule);
+    cursor: pointer;
+    text-decoration:none; 
+}
+
+.nav_cadastro:hover{
+    color: var(--amarelo);
+}
+
+.sublinado{
+    text-decoration: none;
+}
+

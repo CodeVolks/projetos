@@ -1,0 +1,263 @@
+label {
+    font-family: "VerdanaRegular";
+}
+
+.section_titulo {
+    display: flex;
+    margin: 50px auto;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+}
+
+.section_titulo img {
+    padding-right: 20px;
+}
+
+.icon {
+    position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .conteudo {
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: aqua;*/
+}
+
+.pesquisas {
+    /*background-color: aquamarine;*/
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 50px 0;
+}
+
+.ou {
+    /*background-color: bisque;*/
+    padding: 30px 10px 10px 10px;
+    font-family: "VerdanaRegular";
+}
+
+.input-field {
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.section_pesquisa_btn {
+    /* background-color: blueviolet;*/
+    color: #474545;
+    font-size: 45px;
+    padding: 35px 8px 0 8px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "VerdanaRegular";
+    padding: 40px 0 20px 0;
+    color: #474545;
+}
+
+table {
+    table-layout: fixed;
+
+    font-family: "VerdanaRegular";
+    /* color: #474545;*/
+
+    justify-content: space-between;
+    border-spacing: 0;
+}
+
+td {
+
+    border-bottom: #27272729 solid 1px;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+.section_table {
+    /* background-color: burlywood;*/
+    width: 100%;
+
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1 {
+    /*  background-color: darkgoldenrod;*/
+    background-color: aquamarine;
+    width: 15%;
+}
+
+.c2 {
+    /* background-color: cornflowerblue;*/
+    width: 80%;
+    background-color: bisque;
+
+}
+
+.c3 {
+    /* background-color:aquamarine;*/
+}
+
+.c4 {
+    /*background-color:fuchsia;*/
+}
+
+select {
+    border-radius: 100px;
+    padding: 4px;
+    background: transparent;
+}
+
+.tabela-teste {
+    width: 100%;
+    background-color: royalblue;
+    height: 311px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.fundo_amarelo {
+    background-color: var(--amarelo);
+}
+
+
+
+
+
+.section_pesquisa_resultado_input {
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    padding: 11px 20px 7.5px 10px;
+    align-items: center;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.input-icons {
+    margin-top: 10px;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    background: transparent;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+
+
+.section_pesquisa p {
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    padding: 30px 10px 10px 10px;
+
+}
+
+.section_pesquisa_btn img {
+    width: 34px;
+    margin-left: 10px;
+}
+
+.section_pesquisa_resultado {
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+}
+
+.section_pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--preto);
+}
+
+
+/*tabela*/
+
+.lista_consultas {
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    color: var(--preto);
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 300px;
+    padding-right: 5%;
+
+
+}
+
+.linha_consultas {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.162);
+
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linha_consultas_id{
+    width: 259px;
+}
+
+.linha_consultas_tipo{
+    width: 518px;
+}
+
+.linha_consultas_status{
+    width: 15%;
+    padding: 0 0 0 10px;
+    height: 25px;
+    font-family: "VerdanaRegular";
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+

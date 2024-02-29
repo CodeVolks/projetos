@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneasy</title>
+    <link rel="stylesheet" href="./demanda_consulta.css">
+    <link rel="stylesheet" href="../css/imports_fonts.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" href="../assets/images/icon_logo.svg">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <script src="../JavaScript/JavaScript.js" defer></script>
+</head>
+
+<body>
+
+
+    <main>
+        <aside>
+            <img class="aside_logo" src="../assets/images/logob.svg" alt="">
+
+            <nav class="nav_btn_menu">
+                <a href="../dashboard/dashboard.html"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
+                <a href="../profissional_cadastro/profissional_cadastro.html"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
+                <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a class="btn_logado" href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
+                <a href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a href="../squad_atualizar/squad_atualizar.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
+            </nav>
+
+            <footer>
+                <a href="../entrar/entrar.html"><iconify-icon icon="iconamoon:exit-bold"></iconify-icon>Sair</a>
+            </footer>
+        </aside>
+        <section>
+            <div class="container-grid">
+                <div class="conteudo">
+                    <div class="cadastrar">
+                        <img src="../assets/images/bolinha_azul.svg" alt="">
+                        <h1>Demandas</h1>
+                    </div>
+                    <div class="buttons-grid">
+                        <a href="../demanda_cadastro/demanda_cadastro.html" class="button-cadastrar">Cadastrar</a>
+                        <a href="#" class="button-consultar">Consultar</a>
+                    </div>
+
+                    <div class="info-grid">
+                        <div class="chapa">
+                            <span class="text-span">Chapa</span>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                                <input class="input-field" name="Chapa" type="text">
+                            </div>
+                        </div>
+
+                        <span>ou</span>
+
+                        <div class="nome">
+                            <span class="text-span">Nome</span>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="mingcute:user-4-fill" style="color: #474545;"></iconify-icon>
+                                <input class="input-field" name="Nome" type="text">
+                            </div>
+                        </div>
+                        <div class="icon-lupa">
+                            <a href="#"><img src="../assets/images/btn_pesquisa.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="lista-demandas">
+                        <h2>Lista de Demandas</h2>
+                        <div class="scroll">
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Atualização do Cadastro para MySQL</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Implementação do onboarding</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Implementação do sistema de organiza...</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Atualização do Cadastro de Clientes par...</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Criação do novo sistema de gerenciame...</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Criação do novo sistema de gerenciame...</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Atualização do Cadastro para MySQL</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Implementação do onboarding</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul>
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Implementação do sistema de organiza...</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+                            </ul> 
+                            <ul class="num-demanda">
+                                <li>01010101</li>
+                                <li class="alinhamento-texto">Atualização do Cadastro de Clientes par...</li>
+                                <a href="../demanda_atualizar/demanda_atualizar.html"><img src="../assets/images/Editar.svg" alt=""></a>
+
+                            </ul>  
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

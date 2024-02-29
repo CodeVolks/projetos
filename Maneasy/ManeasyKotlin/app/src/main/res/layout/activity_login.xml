@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity"
+        android:background="@drawable/fundo"
+        android:padding="20dp"
+        tools:layout_editor_absoluteY="-28dp"
+        tools:layout_editor_absoluteX="-14dp">
+
+    <ImageView
+            android:layout_width="158dp"
+            android:layout_height="163dp"
+            android:src="@drawable/logo_colorida"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="52dp"
+            android:id="@+id/logo_login"
+            app:layout_constraintHorizontal_bias="0.498"/>
+
+    <EditText
+            android:layout_width="331dp"
+            android:layout_height="41dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="******"
+            android:textColorHint="@color/black"
+            android:background="@drawable/style_card"
+            android:paddingStart="20dp"
+
+            android:id="@+id/campo_senha"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/senha_estatico" android:layout_marginTop="12dp"
+    />
+    <TextView
+            android:text="E-mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_estatico"
+            android:textColor="#2274AC"
+            android:textSize="17sp"
+            android:fontFamily="@font/verdana_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintTop_toBottomOf="@+id/entrar_estatico" android:layout_marginTop="36dp"/>
+    <TextView
+            android:text="Cadastre-se!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadastro"
+            android:textColor="#2274AC"
+            android:textSize="18sp"
+            android:fontFamily="@font/verdana_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="48dp" app:layout_constraintTop_toBottomOf="@+id/btn_entrar"
+            app:layout_constraintVertical_bias="1.0"/>
+    <EditText
+            android:layout_width="331dp"
+            android:layout_height="41dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="exemplo@email.com"
+            android:textColorHint="@color/black"
+            android:background="@drawable/style_card"
+            android:paddingStart="20dp"
+
+            android:id="@+id/campo_email"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_estatico" android:layout_marginTop="12dp"
+            app:layout_constraintHorizontal_bias="0.45"/>
+    <TextView
+            android:text="Senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/senha_estatico"
+            android:textColor="#2274AC"
+            android:textSize="17sp"
+            android:fontFamily="@font/verdana_regular"
+            app:layout_constraintTop_toBottomOf="@+id/campo_email"
+            android:layout_marginTop="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"/>
+    <TextView
+            android:text="Esqueceu sua senha?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/esqueceu_senha"
+            android:textColor="#2274AC" android:textSize="17sp"
+            android:fontFamily="@font/verdana_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.824"
+            app:layout_constraintTop_toBottomOf="@+id/campo_senha" android:layout_marginTop="8dp"/>
+    <Button
+            android:text="Entrar"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_entrar"
+            android:fontFamily="@font/titilliumweb_bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#2274AC"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            android:ellipsize="none"
+            app:cornerRadius="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/esqueceu_senha"
+            android:layout_marginTop="36dp"/>
+    <TextView
+            android:fontFamily="@font/verdana_bold"
+            android:textSize="24sp"
+            android:text="Entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/entrar_estatico"
+            android:textColor="#2274AC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo_login"
+            app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

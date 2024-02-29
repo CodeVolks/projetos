@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneasy</title>
+    <link rel="stylesheet" href="../squad_cadastro/squad_cadastro.css">
+    <link rel="stylesheet" href="../css/imports_fonts.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" href="../assets/images/icon_logo.svg">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <aside>
+
+            <img class="aside_logo" src="../assets/images/logob.svg" alt="">
+
+            <nav class="nav_btn_menu">
+                <a href="../dashboard/dashboard.html"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
+                <a href="../profissional_cadastro/profissional_cadastro.html"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
+                <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
+                <a href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a class="btn_logado" href="../squad_atualizar/squad_atualizar.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
+            </nav>
+
+            <footer>
+                <a href="../entrar/entrar.html"><iconify-icon icon="iconamoon:exit-bold"></iconify-icon>Sair</a>
+            </footer>
+        </aside>
+
+        <section class="container">
+
+            <div class="section_titulo">
+                <img src="../assets/images/bolinha_azul.svg" alt="">
+                <h1>Squad</h1>
+            </div>
+
+            <form>
+
+                <div class="form_id">
+                    <div class="section_pesquisa_resultado_input">
+                        <label for="id">ID</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                            <input name="id" class="input-field" type="number">
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="section_cadastro_squad_btn"><img src="../assets/images/btn_pesquisar.svg"
+                                alt=""></a>
+
+                    </div>
+                </div>
+
+                <div class="section_pesquisa">
+                    <div class="section_pesquisa_resultado_input">
+                        <label for="nome_projeto">Nome do Projeto</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="la:project-diagram"></iconify-icon>
+                            <input name="nome_projeto" class="input-field" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_date">
+                    <div class="form_criacao_inicio_termino">
+                        <div class="form_date_criacao_inicio_termino">
+                            <label for="criacao">Criação</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon icon_calendario" icon="zondicons:calendar"></iconify-icon>
+                                <input name="criacao" class="input-field" type="date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_criacao_inicio_termino">
+                        <div class="form_date_criacao_inicio_termino">
+                            <label for="inicio">Ínicio</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon icon_calendario" icon="zondicons:calendar"></iconify-icon>
+                                <input name="inicio" class="input-field" type="date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_criacao_inicio_termino">
+                        <div class="form_date_criacao_inicio_termino">
+                            <label for="termino">Término</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon icon_calendario" icon="zondicons:calendar"></iconify-icon>
+                                <input name="termino" class="input-field" type="date">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section_objetivo_projeto">
+                    <div class="section_objetivo_projeto_label_textarea">
+                        <label for="objetivo_projeto">Objetivo do Projeto</label>
+                        <div>
+                            <textarea id="objetivo_projeto" name="objetivo_projeto" rows="4" cols="50"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <h2 class="titulo_lista_prof">Lista de profissionais</h2>
+                <div class="section_pesquisa espacamento">
+                    <div class="section_pesquisa_resultado_input">
+                        <label for="Pesquisa">Pesquisa</label>
+                        <div class="input-icons">
+                            <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                            <input name="Pesquisa" class="input-field" type="number" placeholder="Pesquise pelo nome o chapa">
+                        </div>
+                    </div>
+                    <a href="" class="section_pesquisa_btn"><img src="../assets/images/btn_pesquisar.svg" alt=""></a>
+
+                </div>
+                <div class="section_resultado">
+                    <div class="tabela_scroll">
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010101</p>
+
+                                <p class="section_resultado_dados_nome">Claudio Francisco Porto</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010102</p>
+
+                                <p class="section_resultado_dados_nome">Gustavo Luiz Miranda</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_confirmar.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010103</p>
+
+                                <p class="section_resultado_dados_nome">Hosmairys Yuriannys Holder Rodriguez</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010104</p>
+
+                                <p class="section_resultado_dados_nome">Jhonatan Pereira Ferreira</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
+                            </a>
+                        </div>
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010105</p>
+
+                                <p class="section_resultado_dados_nome">Lucas Oliveira</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
+                            </a>
+                        </div>
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010106</p>
+
+                                <p class="section_resultado_dados_nome">Priscila Laurentino</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
+                            </a>
+                        </div>
+                        <div class="section_resultado_dados">
+                            <div>
+                                <p class="section_resultado_dados_id">010107</p>
+
+                                <p class="section_resultado_dados_nome">Marcel de Lima Brito</p>
+                            </div>
+
+                            <a href="" class="section_resultado_dados_btn"><img src="../assets/images/btn_squad_mais.svg"
+                                alt="">
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

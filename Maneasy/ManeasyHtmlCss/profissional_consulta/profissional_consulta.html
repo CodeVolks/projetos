@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneasy</title>
+    <link rel="stylesheet" href="./profissional_consulta.css">
+    <link rel="stylesheet" href="../css/imports_fonts.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" href="../assets/images/icon_logo.svg">
+    <script src="./JavaScript_profissional_consulta.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <aside>
+
+            <img class="aside_logo" src="../assets/images/logob.svg" alt="">
+
+            <nav class="nav_btn_menu">
+                <a href="../dashboard/dashboard.html"><iconify-icon icon="ph:chart-bar-bold"></iconify-icon>Dashboard</a>
+                <a class="btn_logado" href="../profissional_cadastro/profissional_cadastro.html"><iconify-icon icon="ion:people-circle"></iconify-icon>Profissionais</a>
+                <a href="../projeto_cadastro/projeto_cadastro.html"><iconify-icon icon="la:project-diagram"></iconify-icon>Projetos</a>
+                <a href="../demanda_cadastro/demanda_cadastro.html"><iconify-icon icon="mdi:clipboard-edit-outline"></iconify-icon>Demandas</a>
+                <a href="../chamado_cadastro/chamado_cadastro.html"><iconify-icon icon="mdi:bell-alert-outline"></iconify-icon>Chamados</a>
+                <a href="../squad_atualizar/squad_atualizar.html"><iconify-icon icon="mdi:people-group"></iconify-icon>Squad</a>
+                <a href="../consulta/consulta.html"><iconify-icon icon="mdi:file-report-outline"></iconify-icon>Consultas</a>
+            </nav>
+
+            <footer>
+                <a href="../entrar/entrar.html"><iconify-icon icon="iconamoon:exit-bold"></iconify-icon>Sair</a>
+            </footer>
+
+
+        </aside>
+
+
+        <section class="conteudo_princiapal">
+            <div class="container_grid">
+                <div class="section_titulo">
+                    <img src="../assets/images/bolinha_azul.svg" alt="circulo azul">
+                    <h1>Profissionais</h1>
+                </div>
+                <div class="conteudo">
+                    <nav class="nav_cad_cons">
+                        <a class="btn_cad" href="../profissional_cadastro/profissional_cadastro.html">Cadastrar</a>
+                        <a class="btn_cons" href="#">Consultar</a>
+                    </nav>
+
+                    <div class="section_pesquisa">
+                        <div class="section_pesquisa_resultado_input">
+                            <label for="Chapa">Chapa</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="ic:outline-badge"></iconify-icon>
+                                <input name="Chapa" class="input-field" type="number">
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>ou</p>
+                        </div>
+
+                        <div class="section_pesquisa_resultado_input">
+                            <label for="Consultar">Consultar</label>
+                            <div class="input-icons">
+                                <iconify-icon class="icon" icon="mingcute:user-4-fill"></iconify-icon>
+                                <input name="Consultar" class="input-field" type="text">
+                            </div>
+                        </div>
+
+                        <a href="" class="section_pesquisa_btn"><img src="../assets/images/btn_pesquisar.svg" alt=""></a>
+                    </div>
+
+
+                    <section class="secao_lista">
+                        <h2>Lista de Profissionais</h2>
+                        <div class="tabela_scroll">
+                            <table>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Priscila Laurentino</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Hosmairys Yuriannys Holder Rodriguez</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Gustavo Luiz Miranda</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Claudio Francisco Porto</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Jhonatan Pereira Ferreira</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Marcel de Lima Brito</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Lucas Oliveira</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Priscila Laurentino</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Hosmairys Yuriannys Holder Rodriguez</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Gustavo Luiz Miranda</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Claudio Francisco Porto</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Jhonatan Pereira Ferreira</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Marcel de Lima Brito</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="numero_chapa">01010101</td>
+                                    <td class="nome">Lucas Oliveira</td>
+                                    <td class="lapis_lista">
+                                        <a href="../profissional_atualizar/profissional_atualizar.html">
+                                            <img src="../assets/images/btn_editar.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

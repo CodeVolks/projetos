@@ -1,0 +1,329 @@
+/* CLASSES GENERICAS */
+.icon {
+    position: absolute;
+    padding: 11.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 20px;
+}
+
+.input-icons {
+    width: 30%;
+    position: relative;
+}
+
+.input-field {
+    background: transparent;
+    border-radius: 100px;
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+    font-family: "VerdanaRegular";
+}
+
+/* TITULO */
+section .container-grid{
+    font-family: "VerdanaRegular";
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 0 0 40px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+section .conteudo{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .cadastrar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section .cadastrar h1{
+    font-family: "SpartanBold";
+    font-size: 35px;
+    line-height: 44px;
+    color: var(--azule);
+}
+
+/*BUTTONS*/
+section .buttons-grid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin:25px 0px 39px 0px;
+}
+
+section .button-cadastrar{
+    width: 130px;
+    height: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: "VerdanaRegular";
+    font-size: 20px;
+    line-height: 34px;
+    color: var(--preto);
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.button-cadastrar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    background: var(--azule);
+    height: 2px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .button-cadastrar:hover:before, .button-cadastrar:focus:before, .button-cadastrar:active:before {
+    left: 0;
+  }
+
+section .button-consultar{
+    width: 130px;
+    height: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: "VerdanaRegular";
+    font-size: 20px;
+    line-height: 34px;
+    color: var(--preto);
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden; 
+}
+
+.button-consultar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: var(--azule);
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  .button-consultar:hover:before, .button-consultar:focus:before, .button-consultar:active:before {
+    right: 0;
+  }
+/* CHAPA / NOME */
+section .info-grid{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+section .info-grid>span{
+    display: flex;
+    align-items: center;
+
+    font-family: "VerdanaRegular";
+    font-size: 17px;
+    line-height: 28px;
+}
+
+section .text-span{
+    font-family: "VerdanaRegular";
+    font-size: 17px;
+    line-height: 28px;
+}
+
+section .chapa>div{
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+}
+
+section .nome>div{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+section .icon-lupa{
+    height: 100%;
+    
+    display: flex;
+    align-items: center;  
+}
+
+/* LISTA DE DEMANDAS */
+section .lista-projetos h2{
+    font-family: "VerdanaRegular";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: var(--preto);
+
+    margin: 40px 0 20px;
+}
+
+section .num-projetos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 0.5px solid rgba(190, 188, 188, 1);
+}
+
+.alinhamento-texto{
+    width: 350px;
+}
+
+section ul,li{
+    font-family: "VerdanaRegular";
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+    
+
+    list-style-type: none;
+}
+
+
+/*pesquisa*/
+
+.pesquisas {
+    /*background-color: aquamarine;*/
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    justify-content: space-between;
+}
+
+.ou {
+    /*background-color: bisque;*/
+    padding: 30px 10px 10px 10px;
+    font-family: "VerdanaRegular";
+}
+
+.input-icons_pesquisa {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.input-field_pesquisa {
+    background: transparent;
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #474545;
+}
+
+.section_pesquisa_btn {
+    /* background-color: blueviolet;*/
+    color: #474545;
+    font-size: 45px;
+    padding: 35px 8px 0 8px;
+}
+
+.section_consulta_chamado_btn img{
+    width: 34px;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.input_id{
+    width: 45%;
+    color: var(--preto);
+}
+
+.input_nome{
+    width: 45%;
+    color: var(--preto);
+}
+
+.btn_editar{
+    margin: auto 0;
+}
+
+.btn_editar{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section_titulo {
+    display: flex;
+    width: 80%;
+    margin: 50px 0;
+    font-family: "SpartanBold";
+    color: var(--azule);
+    font-size: 30px;
+    gap: 20px;
+
+}
+
+.container_lista_projetos{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 300px;
+    padding-right: 5%;
+    color: var(--preto);
+}
+
+html ::-webkit-scrollbar {
+    width: 6px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--azule);
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
